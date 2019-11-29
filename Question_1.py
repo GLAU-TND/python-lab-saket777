@@ -6,7 +6,7 @@ class MyException(Exception):
 def xyz(a,b):
     c=a+b
     if c<150:
-        raise MyException('exception occured')
+        raise MyException('custom exception occured')
     else:
         return c
 a=int(input())
